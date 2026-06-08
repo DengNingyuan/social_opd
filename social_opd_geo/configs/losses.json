@@ -1,0 +1,7 @@
+{
+  "lossv1": {
+    "name": "lossv1",
+    "description": "Classic Self-OPD / On-Policy Self-Distillation loss. The student and teacher are the same base policy under different prompts; the teacher distribution is detached. The core objective is student-to-teacher Reverse KL over aligned continuation positions.",
+    "formula": "loss = lambda_kl * KL(pi_student(.|student_prompt) || stopgrad(pi_teacher(.|teacher_prompt)))"
+  }
+}

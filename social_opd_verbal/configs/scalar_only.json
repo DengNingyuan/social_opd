@@ -1,0 +1,11 @@
+{
+  "name": "scalar_only",
+  "description": "Baseline: score/confidence training without uncertainty-specific losses or KL.",
+  "lambda_ce": 1.0,
+  "lambda_score_mse": 1.0,
+  "lambda_conf_mse": 1.0,
+  "lambda_unc_mse": 0.0,
+  "lambda_consistency": 0.0,
+  "lambda_kl": 0.0
+}
+
