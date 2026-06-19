@@ -1,8 +1,0 @@
-{
-  "teacherv1": {
-    "name": "teacherv1",
-    "description": "Same 3B base model as the student. The teacher differs only by prompt: before choosing the final score, it reasons from three disagreement-aware perspectives inspired by the data/task/annotator taxonomy: data factors, task factors, and annotator factors. It still outputs only score JSON. Confidence is computed from generated-token log probabilities with Logit Geom.",
-    "student_role": "student",
-    "teacher_role": "teacher"
-  }
-}
